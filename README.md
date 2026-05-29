@@ -67,7 +67,7 @@ Built with **React 18**, **TypeScript**, and **Vite**, styled with **Chakra UI v
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/your-org/condify.git
+   git clone https://github.com/AzuriteAzul/condify.git
    cd condify
    ```
 
@@ -124,20 +124,19 @@ condify/
 ├── public/                  # Static assets
 ├── src/
 │   ├── components/          # React components (Dashboard, Budget, QuoteMap, Kanban, etc.)
-│   ├── lib/
-│   │   ├── data.ts          # Data service layer (Supabase client wrappers)
-│   │   ├── supabase.ts      # Supabase client initialization & Database types
-│   │   ├── config.ts        # Centralized config (fractions, currency, limits, branding)
-│   │   └── email.ts         # Email stub (not yet implemented)
 │   ├── contexts/
 │   │   └── AuthContext.tsx  # Authentication provider & useAuth hook
+│   ├── lib/
+│   │   ├── data.ts          # Data service layer (Supabase client wrappers)
+│   │   └── supabase.ts      # Supabase client initialization & Database types
 │   ├── types/               # Shared TypeScript type definitions
+│   ├── config.ts            # Centralized config (fractions, currency, limits, branding)
 │   ├── theme.ts             # Chakra UI custom theme (gray palette, brand colors)
 │   └── App.tsx              # React Router v6 routing & layout composition
 ├── supabase-schema.sql      # Full database schema, RLS policies, triggers, seed data
 ├── env.example              # Environment variable template
 ├── vercel.json              # SPA rewrite rules for Vercel
-├── tsconfig.json            # TypeScript configuration
+├── tsconfig.json             # TypeScript configuration
 └── package.json
 ```
 

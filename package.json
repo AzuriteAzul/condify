@@ -1,7 +1,13 @@
 {
   "name": "condify",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
+  "description": "Modern condominium management SPA — React 18, TypeScript, Supabase, Chakra UI",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AzuriteAzul/condify.git"
+  },
   "type": "module",
   "scripts": {
     "dev": "vite",
